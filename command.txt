@@ -1,0 +1,15 @@
+171  aws configure
+  172  cd /tmp
+  173  ls -l
+  174  ssh-add git.pem
+  175  ansible-playbook playbook.yml -u ec2-user
+  176  vim playbook.yml
+  177  vim /etc/ansible/hosts
+  178  ansible-playbook playbook.yml -u ec2-user
+  179  yum install python-pip
+  180  pip install boto3
+  181  ansible-playbook playbook.yml -u ec2-user
+  182  pip install boto
+  183  ansible-playbook playbook.yml -u ec2-user
+  184  aws ec2 describe-instance
+  185  aws ec2 describe-instances
